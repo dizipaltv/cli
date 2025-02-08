@@ -103,4 +103,4 @@ This project is licensed under the MIT License.
 <br>
 
 ## Contact
-For questions or suggestions, please email us at dizipaltv@gmail.com.
+For questions or suggestions, please email us at imcanisik@gmail.com.
