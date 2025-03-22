@@ -2,7 +2,7 @@
 import { Cli, Builtins } from 'clipanion';
 import { Metadata } from './utils.js';
 import config from './config.js';
-import * as commands from './commands.js';
+import * as commands from './commands/index.js';
 
 // Define CLI and add commands
 async function main() {

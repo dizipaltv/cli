@@ -1,10 +1,8 @@
-import { fileURLToPath } from 'url';
 import fs from 'fs/promises';
 import { Logil } from 'logil';
 import config from './config.js';
 import * as path from 'path';
 import os from 'os';
-
 
 
 /***  TYPES  ***/
@@ -15,10 +13,6 @@ export interface BaseConfig {
 }
 
 
-/***  VARIABLES  ***/
-// @ts-ignore: no problem
-export const __filename = fileURLToPath(import.meta.url);
-export const __dirname = path.dirname(__filename);
 export const __baseapi = "https://raw.githubusercontent.com/dizipaltv/api/main/dizipal.json";
 export const __configdir = path.join(os.homedir(), ".config");
 export const __configfile = path.join(__configdir, "dizipal.json");
@@ -27,7 +21,6 @@ export let __baseconfig: BaseConfig = {
     currentSiteURL: undefined,
     firstProcess: 0
 }
-
 
 
 /***  LOGIL  ***/

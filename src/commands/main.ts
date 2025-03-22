@@ -4,7 +4,6 @@ import fs from 'fs/promises';
 import os from 'os';
 import { log } from '../utils.js';
 
-
 export async function open_app() {
     try {
         if (process.platform === "win32") {

@@ -21,7 +21,6 @@ interface SiteConfig {
 class Find {
     #url_returned_api: string | undefined;
 
-
     async latest(api?: string | undefined, raw?: boolean) {
         if (!raw) {
             log.info("Finding the latest dizipal URL...");
